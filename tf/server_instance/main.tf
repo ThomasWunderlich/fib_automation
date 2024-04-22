@@ -1,11 +1,10 @@
 locals {
-
   home_cidr = "71.190.229.42/32"
 
-    tags = {
+  tags = {
     Terraform = "true"
     Environment = "dev"
-      Service = "Fibonacci"
+    Service = "Fibonacci"
   }
 }
 
